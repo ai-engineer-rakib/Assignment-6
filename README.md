@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FITLOG — Workout Library & Routine Planner
 
-## Getting Started
+FitLog is a dark, no-nonsense gym companion application built with Next.js (App Router) and Tailwind CSS. It allows fitness enthusiasts to explore curated lifts, schedule them into daily workout plans, and track their estimated minutes and calories with real-time reactive stats.
 
-First, run the development server:
+## 🚀 Live Demo & Deployment
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Live URL**: [ ]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 14+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Notifications**: React Hot Toast
+- **Data Persistence**: HTML5 LocalStorage API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features (Minimum 5)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Interactive Workout Library & Sorting**: 3x4 responsive grid on large screens displaying lifts from the FitLog API with sorting by Duration, Calories, or Rating.
+2. **Detailed Exercise Specifications**: Dedicated workout pages detailing equipment, difficulty, reps/sets, and ordered step-by-step instructions.
+3. **Daily Routine Planner with 5-Lift Cap**: Add workouts to "Today's Plan" with an automatic safety cap that limits daily volume to 5 active exercises.
+4. **Live Metrics Dashboard**: Real-time calculated summary cards that sum total planned exercises, accumulated duration (minutes), and burned calories.
+5. **Session Completion & Local Persistence**: Mark planned lifts as done, remove items instantly, and maintain state across browser reloads via LocalStorage.
